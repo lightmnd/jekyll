@@ -4,7 +4,15 @@ title: Contact
 permalink: /contact/
 ---
 
-
+<ul class="list-posts">
+  {% for post in site.posts %}
+    <li>
+      <img src="{{post.image}}">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
 
 <form action="/action_page.php">
   First name:<br>

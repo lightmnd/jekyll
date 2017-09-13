@@ -27,8 +27,10 @@ body {
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
+
 .highlight {
   margin-bottom: 15px; }
+
 
 /**
  * Images
@@ -328,6 +330,10 @@ pre {
       .post-content h4 {
         font-size: 18px; } }
 
+
+  .list-posts li {
+    list-style: none;
+  }
 /**
  * Syntax highlighting styles
  */
